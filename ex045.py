@@ -20,6 +20,8 @@ if computador == 0:
         print('Jogador venceu')
     elif jogador == 2:
         print('Computador venceu')
+    else:
+        print('Jogada inválida')
 elif computador == 1:
     if jogador == 0:
         print('Computador venceu!')
@@ -27,6 +29,8 @@ elif computador == 1:
         print('EMPATE!')
     elif jogador == 2:
         print('Jogador venceu')
+    else:
+        print('Jogada inválida')
 elif computador == 2:
     if jogador == 0:
         print('Jogador venceu!')
@@ -34,5 +38,5 @@ elif computador == 2:
         print('Computador venceu!')
     elif jogador == 2:
         print('EMPATE!')
-else:
-    print('Jogada inválida')
+    else:
+        print('Jogada inválida')
