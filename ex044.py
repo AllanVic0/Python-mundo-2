@@ -7,5 +7,18 @@ print('''Escolha entre as opções de pagamento abaixo
 opçpg = int(input('Escolha a opção de pagamento: '))
 
 if opçpg == 1:
-
-# terminar hoje
+      desc = (valor * 10) / 100
+      nvalor = valor - desc
+      print('O valor a ser pago é de R$ {}'.format(nvalor))
+elif opçpg == 2:
+      desc = (valor * 5) / 100
+      nvalor = valor - desc
+      print('O valor a ser pago é de R$ {}'.format(nvalor))
+elif opçpg == 3:
+      print('O valor a ser pago é de R$ {}'.format(valor))
+elif opçpg == 4:
+      juros = (valor * 20) / 100
+      nvalor = valor + juros
+      print('O valor a ser pago é de R$ {}'.format(nvalor))
+else:
+      print('Opção inválida')
